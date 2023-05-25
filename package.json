@@ -26,5 +26,9 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "keywords": [
+    "ant-design-vue",
+    "vue"
+  ]
 }
