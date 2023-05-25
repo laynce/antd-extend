@@ -1,0 +1,30 @@
+{
+  "name": "antdy-extend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lib": "cd ./scripts && node build.js",
+    "preview": "vite preview"
+  },
+  "files": ["dist", "example"],
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "unocss": "^0.52.3",
+    "vite": "^4.3.2",
+    "vite-plugin-clean": "^1.0.0",
+    "ant-design-vue": "^3.2.20",
+    "sass": "^1.62.1",
+    "vue": "^3.2.47"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laynce/antd-extend.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
